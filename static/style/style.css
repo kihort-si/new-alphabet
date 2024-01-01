@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Advent Pro", sans-serif;
+}
+
+header {
+    background: #170606;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+header>h1 {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+header>div {
+    height: 76.67px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header>div>a {
+    display: flex;
+    height: 76.67px;
+    text-decoration: none;
+    color: white;
+    vertical-align: center;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+header>div>a:hover {
+    background: white;
+    color: black;
+    text-decoration: underline;
+}
+
+.header-button>p {
+   margin-top: 28.67px;
+}
+
+main {
+    margin: 3rem;
+}
+
+@media (max-width: 500px) {
+    main {
+        margin: 1rem;
+    }
+
+    .enter-text>button {
+        margin-right: 1rem;
+    }
+}
+
+main h2 {
+    text-align: center;
+    margin: 1rem;
+}
+
+.enter-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.enter-text>textarea {
+    background-color: #efefef;
+    border-style: none;
+    border-radius: 20px;
+    padding: 1rem;
+    color: black;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    resize: vertical;
+    overflow: hidden; 
+}
+
+.copy-button {
+    background-color: deepskyblue;
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+    padding: 1rem;
+    margin-top: 10px;
+}
+
+.enter-text>button {
+    position: relative;
+    background: none;
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+    margin-left: 1rem;
+    margin-right: 3rem;
+}
+
+.enter-text>button>img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 48px;
+}
+
+main>p>span {
+    font-weight: 700;
+}
+
+main>p {
+    margin-bottom: 1rem;
+}
+
+.characters {
+    display: inline-block;
+}
+
+.characters>h3 {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 36px;
+    margin-right: 1rem;
+    height: 45px;
+}
+
+figure {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+figure>img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    color: grey;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 1rem;
+}
+
+.line {
+    background-color: #efefef;
+    height: 3px;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

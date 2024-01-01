@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>í - Novyj russkij alfavit</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="static/style/fonts.css">
+    <link rel="stylesheet" href="static/style/style.css">
+</head>
+<body>
+<header>
+    <h1>í</h1>
+    <div>
+        <a href="index.html">
+            <div class="header-button">
+                <p>Перевести</p>
+            </div>
+        </a>
+        <a href="alphabet.html">
+            <div class="header-button">
+                <p>Алфавит</p>
+            </div>
+        </a>
+    </div>
+</header>
+<main>
+    <h2>Введите Ваш текст:</h2>
+    <div class="enter-text">
+        <label for="inputText"></label>
+        <textarea id="inputText" rows="1"></textarea>
+        <button onclick="replaceText()"><img src="static/images/free-icon-enter-10233890.png" alt="Отправить"></button>
+    </div>
+    <div class="result">
+        <div id="resultText"></div>
+<!--        <button class="copy-button" onclick="copyResult()">Скопировать</button>-->
+    </div>
+    <script src="js/script.js"></script>
+</main>
+</body>
+</html>
