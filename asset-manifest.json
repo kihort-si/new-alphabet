@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/new-alphabet/static/css/main.3d550fcf.css",
+    "main.js": "/new-alphabet/static/js/main.5a694061.js",
+    "static/js/453.ffca7652.chunk.js": "/new-alphabet/static/js/453.ffca7652.chunk.js",
+    "static/media/NauryzRedKeds.ttf": "/new-alphabet/static/media/NauryzRedKeds.297492db40b396fd1596.ttf",
+    "static/media/alphabet.svg": "/new-alphabet/static/media/alphabet.9857f837faf25a78786f90c259f6182f.svg",
+    "index.html": "/new-alphabet/index.html",
+    "main.3d550fcf.css.map": "/new-alphabet/static/css/main.3d550fcf.css.map",
+    "main.5a694061.js.map": "/new-alphabet/static/js/main.5a694061.js.map",
+    "453.ffca7652.chunk.js.map": "/new-alphabet/static/js/453.ffca7652.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d550fcf.css",
+    "static/js/main.5a694061.js"
+  ]
+}
