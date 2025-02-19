@@ -2,7 +2,7 @@
   font-family: 'NauryzRedKeds', sans-serif;
   font-style: normal;
   font-weight: 400;
-  src: url('./assets/fonts/NauryzRedKeds.ttf') format('truetype');
+  src: url('assets/fonts/NauryzRedKeds.ttf') format('truetype');
 }
 
 .App {
@@ -20,30 +20,30 @@
   flex-direction: column;
   justify-content: center;
   padding: 8rem 0 4rem;
-}
 
-.titleContainer>span:first-child {
-  font-weight: bold;
-  font-size: 7rem;
-}
+  &>span:first-child {
+    font-weight: bold;
+    font-size: 7rem;
+  }
 
-.titleContainer>span:last-child {
-  font-family: 'NauryzRedKeds', sans-serif;
-  font-size: 4vw;
+  &>span:last-child {
+    font-family: 'NauryzRedKeds', sans-serif;
+    font-size: 4vw;
+  }
 }
 
 .translateBlock {
   display: flex;
   flex-direction: column;
   margin: 10vh 10vw 2vh;
-}
 
-.translateBlock>div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 1rem;
+    &>div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
 }
 
 #inputText, #resultText {
@@ -76,52 +76,54 @@
   max-height: 5vh;
   font-weight: bold;
   transition: box-shadow 0.2s;
+
+    &:hover {
+        box-shadow: darkviolet 0 0 10px 0;
+    }
 }
 
-#copyButton:hover {
-  box-shadow: darkviolet 0 0 10px 0;
-}
+.Home{
+  &>div:last-child {
+    text-align: left;
+    margin: 0 10vw;
 
-.Home>div:last-child {
-  text-align: left;
-  margin: 0 10vw;
+    &>a {
+      color: darkviolet;
+    }
+  }
 }
-
-.Home>div:last-child>a {
-  color: darkviolet;
-}
-
 .header {
   background: black;
-}
 
-.header>a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 4rem;
-  font-family: 'Roboto', sans-serif;
+    &>a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 4rem;
+      font-family: 'Roboto', sans-serif;
+    }
 }
 
 .historyContainer {
   text-align: left;
   margin: 10vh 5vw 2vh;
+
+  &>img {
+      width: 100%;
+      }
 }
 
-.historyContainer>img {
-  width: 100%;
-}
 
 .characters {
   display: inline-block;
-}
 
-.characters>h3 {
-  display: inline-block;
-  white-space: nowrap;
-  font-size: 36px;
-  margin: 0;
-  height: 45px;
+    &>h3 {
+        display: inline-block;
+        white-space: nowrap;
+        font-size: 36px;
+        margin: 0;
+        height: 45px;
+    }
 }
 
 .line {
